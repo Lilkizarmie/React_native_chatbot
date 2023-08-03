@@ -4,7 +4,7 @@ import { Bubble, GiftedChat, InputToolbar, Send } from 'react-native-gifted-chat
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { useCallback } from 'react';
-import GlobalApi from '../Services/GlobalApi';
+import GlobalApi from '../services/GlobalApi';
 import { FontAwesome } from '@expo/vector-icons';
 import ChatFaceData from '../services/ChatFaceData';
 import AsyncStorage from '@react-native-async-storage/async-storage';
